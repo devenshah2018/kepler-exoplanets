@@ -1,0 +1,16 @@
+# Core analysis
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+scipy>=1.11
+
+# Astronomy: light curve retrieval and the Box Least Squares periodogram
+astropy>=6.0
+lightkurve>=2.4
+
+# Plotting
+matplotlib>=3.8
+
+# Notebook
+jupyterlab>=4.0
+ipykernel>=6.29

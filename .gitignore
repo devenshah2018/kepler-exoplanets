@@ -1,0 +1,33 @@
+# Downloaded data. Both directories are repopulated automatically on first run,
+# so the folders are tracked but their contents are not.
+data/raw/*
+!data/raw/.gitkeep
+data/lightcurves/*
+!data/lightcurves/.gitkeep
+
+# lightkurve keeps its own download cache outside the project
+.lightkurve-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
+.claude/settings.local.json
